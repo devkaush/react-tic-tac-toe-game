@@ -1,12 +1,12 @@
 This project was bootstrapped with Create React App.
 
-Tic Tac Toe Game
+# Tic Tac Toe Game
 A basic game build using React.js with added functionality of travelling in between the moves
 
-Working Game Link
+# Working Game Link
 https://react-tictactoegame.herokuapp.com/
 
-npm start
+# npm start
 Runs the app in the development mode.
 Open http://localhost:3000 to view it in the browser.
 
