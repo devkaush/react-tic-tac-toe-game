@@ -1,0 +1,59 @@
+:root{
+    --border-bg-color: #b3b3b3;
+    --text-bg-color: #4d4d4d;
+}
+  .gameHeading{
+    width:100%;
+    text-align:center;
+    border-bottom:1px solid grey;
+    margin-bottom: 60px;
+    border-radius:30%;
+  }
+  .game {
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin:auto;
+    justify-content: space-evenly;
+  }
+  .gameBoard{
+    border:1px solid var(--border-bg-color);
+    flex-shrink: 0;
+  }
+  .nextWho, .gameInfo{
+    border:1px solid var(--border-bg-color);
+    width:300px;
+    text-align: center;
+    border-radius: 5%;
+  }
+  .gameInfo h3{
+    text-align:center;
+  }
+  .square {
+    background: #fff;
+    border: 1px solid white;
+    float: left;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 110px;
+    height: 110px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 100px;
+    background-color: #41A4F3;
+    color:white;
+  }
+  
+  .square:focus {
+    outline: none;
+  }
+
+  .movesButton{
+    width:150px;
+    margin-bottom: 5px;
+  }
+
+  
+  
