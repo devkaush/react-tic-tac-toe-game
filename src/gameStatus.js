@@ -18,7 +18,7 @@ const calculateWinner = (squares) => {
     return null;
   }
 
-  function checkDraw(squares){
+  const checkDraw = (squares) => {
     for(let i=0; i<squares.length; i++){
       if(squares[i] === null) return false;
     }
@@ -26,4 +26,8 @@ const calculateWinner = (squares) => {
     return true;
   }
 
-  module.exports = { calculateWinner, checkDraw }
+
+  export {
+    calculateWinner,
+    checkDraw
+  }

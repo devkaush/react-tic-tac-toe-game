@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Board from './Board'
 
-const { calculateWinner, checkDraw } = require('./gameStatus')
+import { calculateWinner, checkDraw } from './gameStatus'
 
 export default function Game() {
     const [ticTac, setTicTac] = useState({
